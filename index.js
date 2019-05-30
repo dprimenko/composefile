@@ -15,7 +15,7 @@ const createNewComposeFile = function (options, continueWith) {
   const services = options.services;
   const networks = options.networks;
   const volumes = options.volumes;
-  const data = { version: '2' };
+  const data = { version: options.version };
 
   if (services) {
     data.services = services;
