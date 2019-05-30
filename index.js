@@ -67,7 +67,7 @@ const createComposeFile = function (options, continueWith) {
   const templatePath = options.templatePath;
 
   if (!templatePath) {
-    createNewComposeFile({ outputPath, services, networks, volumes }, continueWith);
+    createNewComposeFile({ outputPath, version, services, networks, volumes }, continueWith);
   }
 };
 
