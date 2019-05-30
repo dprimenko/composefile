@@ -1,5 +1,5 @@
 {
-  "name": "composefile",
+  "name": "composefilev2",
   "version": "0.2.1",
   "description": "Create dynamic Docker Compose files using Node.js",
   "main": "index.js",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/PDMLab/composefile.git"
+    "url": "https://github.com/dprimenko/composefile.git"
   },
   "keywords": [
     "Docker",
     "Compose"
   ],
-  "author": "Alexander Zeitler <alexander.zeitler@pdmlab.com>",
+  "author": "David Primenko <davidprimenko@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PDMLab/composefile/issues"
+    "url": "https://github.com/dprimenko/composefile/issues"
   },
-  "homepage": "https://github.com/PDMLab/composefile#readme",
+  "homepage": "https://github.com/dprimenko/composefile#readme",
   "engine": "node >= 4.0.0",
   "devDependencies": {
     "async": "^2.0.1",

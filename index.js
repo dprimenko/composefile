@@ -60,6 +60,7 @@ const createComposeFile = function (options, continueWith) {
   }
 
   const outputPath = path.join(outputFolder, filename);
+  const version = options.version;
   const services = options.services;
   const networks = options.networks;
   const volumes = options.volumes;
