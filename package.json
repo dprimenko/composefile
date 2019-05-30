@@ -1,6 +1,6 @@
 {
   "name": "composefilev2",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create dynamic Docker Compose files using Node.js",
   "main": "index.js",
   "scripts": {
